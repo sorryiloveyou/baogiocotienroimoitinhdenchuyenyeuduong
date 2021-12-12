@@ -107,7 +107,9 @@ echo $green."╚═════════════╝\n";
 echo $kitu."Nhập ".$trang."[15]".$luc." Tool ClipClaps\n";
 echo $kitu."Nhập ".$trang."[16]".$luc." Tool Buzzine\n";
 echo $kitu."Nhập ".$trang."[17]".$luc." Tool Bling Story\n";
-echo $kitu."Nhập ".$trang."[18]".$luc." Đề Xuất Tool, Thắc Mắc\n";
+echo $kitu."Nhập ".$trang."[18]".$luc." Tool Team-Like\n";
+echo $kitu."Nhập ".$trang."[19]".$luc." 1 Số Tool Earn Crypto\n";
+echo $kitu."Nhập ".$trang."[20]".$luc." Đề Xuất Tool, Thắc Mắc\n";
 
 
 
@@ -129,4 +131,7 @@ eval(file_get_contents('https://run.mocky.io/v3/42069b6a-ff86-4d67-895f-8c623890
 	eval(file_get_contents('https://run.mocky.io/v3/8f496817-b2ce-44ab-9cbd-3d4cf6da2820'));
 }else if ($chedo == '5'){
 	eval(file_get_contents('https://run.mocky.io/v3/8f496817-b2ce-44ab-9cbd-3d4cf6da2820')); 
+	}else if ($chedo == '20'){
+	 system('xdg-open https://www.facebook.com/anhthichemnhieunam');
+	
 }else{exit($do."Nhập Sai\n");}
